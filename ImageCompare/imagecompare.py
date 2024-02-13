@@ -105,7 +105,7 @@ class ImageCompare(object):
     CANDIDATE_LABEL = "Actual Result (Candidate)"
 
     def __init__(self, **kwargs):
-        self.threshold = kwargs.pop('threshold', 0.0000)
+        self.threshold = float(kwargs.pop('threshold', '0.0000'))
         self.SCREENSHOT_DIRECTORY = Path("screenshots/")
         self.DPI = int(kwargs.pop('DPI', 200))
         self.take_screenshots = bool(kwargs.pop('take_screenshots', False))
