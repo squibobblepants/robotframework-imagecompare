@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "robotframework-imagecompare"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Robot Framework Library for image comparisons"
-authors = ["Many Kasiriha <many.kasiriha@dbschenker.com>"]
+authors = ["Many Kasiriha <many.kasiriha@dbschenker.com>", "Tom Fisher <fisher.e.tom@gmail.com>"]
 license = "Apache 2.0"
 packages = [
     { include = "ImageCompare" },
